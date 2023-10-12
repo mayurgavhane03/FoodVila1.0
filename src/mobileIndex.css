@@ -1,0 +1,326 @@
+@media (max-width: 900px) {
+  .logo {
+    height:200px;
+    width:auto !important;
+  }  
+  
+  .nav-btn {
+      display: block; /* Show the nav toggle button for smaller screens */
+      margin-right: 20px;
+    }
+    .header{
+      width: 100%;
+    }
+  
+    .nav-items {
+       
+      display: none; /* Hide the nav items by default for smaller screens */
+      flex-direction: column;
+      background-color: rgb(255, 253, 253);
+      position: fixed;
+      top: 90px;
+      left: 88px;
+      width: 300px;
+      height: 350px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+      /* z-index: 999; */
+      margin-bottom: 500px;
+    }
+
+    .nav-items ul {
+      font-size: 25px;
+      list-style: none;
+      display: inline;
+      align-items: center;
+      justify-content: center;
+      margin-left: 80px;
+      
+      gap: 20px;
+     
+      
+    }
+
+    .nav-items ul li {
+      margin-top: 20px;
+    }
+  
+    .nav-items.responsive {
+      display: flex; /* Show the nav items when the responsive class is added */
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* footer    footer    footer    footer    footer    footer    footer    footer    footer    footer    */
+    .footer {
+      height: 80px;
+      font-size: 12px; /* Adjust font size for smaller screens */
+    }
+  
+    .footer-content {
+      flex-direction: column; /* Stack content vertically on smaller screens */
+      
+    }
+  
+    .footer-logo h3 {
+      font-size: 1.2rem; /* Adjust font size for smaller screens */
+    }
+  
+    .footer-text {
+      margin-top: 10px; /* Add some spacing between the logo and text */
+    }
+    .footer .footer-text h1 {
+      margin-bottom: 50px;
+
+    }
+
+
+
+    /* restaurant card css  restaurant card css  restaurant card css  restaurant card css  restaurant card css  restaurant card css  */
+
+    
+    
+
+
+    /*    search btn     search btn     search btn     search btn     search btn    search btn     search btn     search btn     search btn    */
+
+
+    .search-container {
+      padding-top: 100px;
+      display: flex; /* Use flexbox to center horizontally and vertically */
+      margin-left: 50px;
+    }
+
+
+    /* Contact    Contact   Contact   Contact   Contact   Contact   Contact   Contact     */
+
+
+    .search-input {
+      /* Add your input styles here */
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      width: 400px; /* Adjust the width as needed */
+      height: 40px;
+    }
+  
+
+
+
+    /* about aout anout anout  */
+
+
+    .main-container {
+      padding: 10px;
+    }
+  
+    .image-container {
+      margin-top: 20px;
+      margin-bottom: 10px;
+    }
+  
+    .about-left h1 {
+      font-size: 24px;
+    }
+  
+    .about-left h4 {
+      font-size: 14px;
+    }
+  
+    .about-left h4 span {
+      font-size: 16px;
+    }
+
+    /* Contact page   Contact page   Contact page   Contact page   Contact page   Contact page   Contact page   Contact page    */
+
+    .contact-container {
+      height: auto;
+      padding: 100px;
+      display: grid;
+    }
+  
+    .contact-left {
+      padding-right: 0;
+      height: 250px;
+    }
+
+    .contact-left img{
+      height: 200px;
+      margin-top: 50px;
+    }
+  
+    .contact-right {
+      padding: 10px;
+    }
+  
+    .contact-right h1 {
+      font-size: 24px;
+      margin-bottom: 15px;
+    }
+  
+    .contact-right input,
+    .contact-right textarea {
+      margin: 8px 0;
+      padding: 8px;
+      font-size: 14px;
+    }
+  
+    .contact-right button {
+      padding: 8px 16px;
+      font-size: 14px;
+    }
+  
+    .contact-right span {
+      margin-top: 8px;
+    }
+
+
+
+
+
+
+
+    /* RESTAURANT MENU DETAILS   RESTAURANT MENU DETAILS   RESTAURANT MENU DETAILS   RESTAURANT MENU DETAILS*/
+
+    .restaurant-menu2 {
+      padding-top: 100px;
+    }
+  
+    .restaurant-summary {
+      flex-direction: column;
+      height: auto;
+    }
+  
+    .restaurant-img-container {
+      width: 100%;
+      padding-left: 0;
+    }
+  
+    .restaurant-summary-details {
+      padding-left: 0;
+      text-align: center;
+    }
+  
+    .restaurant-title {
+      font-size: 30px;
+      margin-top: 10px;
+    }
+  
+    .menu-item {
+      padding: 10px;
+    }
+
+
+
+
+    /* login form  login form   login form login form   login form   login form   login form   login form       */
+
+    .login-form {
+      width: 90%; /* Adjust the width for smaller screens */
+      padding: 20px; /* Adjust the padding for smaller screens */
+    }
+  
+    .login-form h2 {
+      margin-bottom: 20px;
+    }
+  
+    .login-form input {
+      padding: 10px; /* Adjust the padding for smaller screens */
+    }
+  
+    .login-form button {
+      padding: 10px;
+    }
+  
+    .login-form .logo img {
+      height: auto; /* Maintain image aspect ratio */
+      max-width: 100%; /* Make sure the image fits within the container */
+    }
+
+
+    
+    /* Instamart  Instamart   Instamart   Instamart   Instamart   Instamart   Instamart   Instamart   Instamart   Instamart   */
+    .main-insta {
+      background-color: #f0f0f0; /* Background color for the entire component */
+    }
+  
+    .insta {
+      text-align: center; /* Center align content */
+      padding: 0px; /* Add padding for better spacing */
+    }
+  
+    .insta h1 {
+      font-size: 24px; /* Adjust font size for smaller screens */
+      margin: 0 auto; /* Center align h1 horizontally */
+      max-width: 80%; /* Limit maximum width to prevent excessive stretching */
+    }
+  
+    .insta img {
+      max-width: 100%; /* Make sure the image fits within the container */
+      height: auto; /* Maintain image aspect ratio */
+      display: block; /* Center align image horizontally */
+      margin: 10px auto; /* Add margin for vertical center alignment */
+    }
+
+
+    /* footer footer footer footer */
+    .content-container12{
+      display: none;
+    }
+    .content-container{
+      display: none;
+    }
+    .copy-container{
+      display: none;
+    }
+
+
+
+/* login     login     login     login     login     login     login     login     login     login     login     login     login     */
+
+
+
+
+
+
+
+
+    .login-form {
+      width: 100%; /* Make the form take up the full width of the screen */
+    }
+  
+    /* Adjust padding, font sizes, or other styles as needed for mobile readability */
+    h1 {
+      font-size: 20px;
+    }
+  
+    .input-field,
+    .error-message {
+      font-size: 14px;
+    }
+  
+    /* You can also hide certain elements on smaller screens if necessary */
+    /* For example, if you want to hide the recaptcha-text on mobile: */
+    .recaptcha-text {
+      display: none;
+    }
+  
+  }
+  

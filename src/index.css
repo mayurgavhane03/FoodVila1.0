@@ -1,0 +1,1531 @@
+
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:regular,bold,italic&subset=latin,latin-ext');
+
+
+
+.add-btn{
+    background:#47586f !important ;
+    color:#fff !important
+  }
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100vw;
+  height: 110px;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: -1px 4px 16px 14px rgba(0, 0, 0, 0.2);
+  color: black;
+  font-weight: bold;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 120;
+  
+  overflow-y: hidden;
+ 
+}
+
+.nav-btn {
+  display: none;
+}
+  /* The rest of your CSS remains unchanged */
+  
+    
+    .logo {
+      margin-top: 10px;
+      width: 350px;
+      padding-left: px; /* Adjust the logo width as needed */
+      height: auto; /* To maintain aspect ratio */
+      margin-right: 20px; /* Adjust the margin as needed */
+    }
+    .user-title{
+      font-size: large;
+    }
+    .nav-items ul {
+      font-size: 22px;
+      list-style: none;
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      margin-left: 280px;
+      /* margin: 0; */
+      padding: 0;
+    }
+    
+    .nav-items li {
+      margin-right: 0px; /* Adjust the margin between nav items as needed */
+    }
+    
+    .nav-items a {
+      text-decoration: none;
+      color:#555968; /* Change the link text color as needed */
+      font-weight: bold;
+    }
+    
+    .nav-items a:hover {
+      color: #FFC300;
+      /* text-decoration: underline;  */
+    }
+    
+    .cart-count {
+      background-color: red; /* Change the background color as needed */
+      color: #fff; /* Change the text color as needed */
+      border-radius: 50%; /* To create a circular shape */
+      padding: 4px 8px; /* Adjust the padding as needed */
+      margin-left: 5px; /* Adjust the margin as needed */
+    }
+    
+   /* Default button styles */
+.login-btn,
+.logout-btn {
+  background-color: transparent;
+  border: none;
+  color: #555968; /* Text color is black by default */
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 25px;
+  padding: 5px 10px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* Hover styles - Background color is red, text color is black */
+.login-btn:hover,
+.logout-btn:hover {
+  background-color: #FFC300;
+  color: black;
+  border-radius: 8px;
+}
+
+  
+  
+    /* RestaurantCard.css */
+
+
+
+/* restaurant menu details  restaurant menu details  restaurant menu details  restaurant menu details  restaurant menu details  restaurant menu details  restaurant menu details  restaurant menu details  */
+.restaurant-menu2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  padding-top: 200px;
+  font-family: Arial, sans-serif;
+  margin-bottom: 200px;
+}
+
+.restaurant-summary {
+  height: 300px;
+  width: 100%;
+  display: flex;
+  border-radius: 20px;
+  align-items: center;
+  margin-bottom: 20px;
+  background-color: #001D3D !important;
+}
+
+.restaurant-img-container {
+  width: 300px;
+  height: 300px;
+  padding-left: 200px; /* Add 500px of padding from the left */
+}
+
+.restaurant-img {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px; /* Apply a 20px border radius to all corners */
+  object-fit: cover;
+}
+
+.restaurant-summary-details {
+  flex: 1;
+  padding-left: 200px;
+}
+
+.restaurant-title {
+  color: #fff;
+  font-family: "PT Sans", Calibri, Tahoma, sans-serif;
+  font-size: 50px;
+}
+
+.restaurant-tags {
+  font-size: 14px;
+  color: #888;
+  margin-bottom: 10px;
+}
+
+.restaurant-details {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  color: #555;
+}
+
+.restaurant-rating {
+  display: flex;
+  align-items: center;
+  padding: 5px 10px;
+  border-radius: 20px;
+  margin-right: 10px;
+}
+
+.restaurant-rating span {
+  margin-left: 5px;
+}
+
+.restaurant-rating-slash {
+  margin: 0 10px;
+}
+
+.menu-title-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.menu-title {
+  font-size: 20px;
+}
+
+.menu-count {
+  font-size: 14px;
+  color: #888;
+}
+
+.menu-items-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-gap: 20px;
+}
+.menu-items-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.menu-item {
+  max-width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.menu-item-details {
+  flex: 1;
+}
+
+.menu-item-details h3 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.menu-item-details .item-desc {
+  font-size: 14px;
+  color: black;
+}
+
+.menu-item-details .item-cost {
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+  margin-top: 10px; /* Add margin to separate item-desc and item-cost */
+}
+
+
+.menu-item-details .item-desc {
+  font-size: 14px;
+  color: #555;
+}
+
+.menu-img-wrapper {
+  position: relative;
+}
+
+.menu-item-img {
+  max-width: 100%;
+  max-height: 150px;
+  object-fit: cover;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.menu-img-wrapper button {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.menu-img-wrapper button:hover {
+  background-color: #0056b3;
+}
+
+
+/* foodItemCard   foodItemCard   foodItemCard   foodItemCard   foodItemCard   foodItemCard   foodItemCard    */
+
+
+
+
+
+/* Merge previous CSS with additional styles for a beautiful card */
+.cart-card {
+  width: 300px;
+  height: 200px;
+
+  border: 1px solid #e6e6e6;
+  border-radius: 8px;
+  padding: 16px;
+  margin: 16px;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+  transition: transform 0.2s ease-in-out;
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  
+}
+
+.cart-card:hover {
+  transform: scale(1.05);
+}
+
+.cart-img {
+  max-width: 150px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  border-radius: 8px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.cart-name {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 16px 0;
+  color: #333333;
+}
+
+.cart-item {
+  font-size: 18px;
+  color: #007bff;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.item-desc {
+  font-size: 16px;
+  color: #666666;
+  margin-top: 10px;
+}
+
+/* Add to Cart button style */
+.add-to-cart-button {
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+  margin-top: 16px;
+}
+
+.add-to-cart-button:hover {
+  background-color: #0056b3;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+  .cart-card {
+    width: 100%;
+    margin: 16px 0;
+  }
+
+  .cart-img {
+    max-width: 100px;
+  }
+
+  .cart-name {
+    font-size: 18px;
+  }
+
+  .cart-item {
+    font-size: 16px;
+  }
+
+  .item-desc {
+    font-size: 14px;
+  }
+}
+
+
+
+
+
+/* Add any additional styling you need here */
+
+/* CART    CART    CART    CART    CART    CART    CART    CART    CART    CART    CART    CART    CART    CART     */
+
+.cart-clear-btn {
+
+  padding-top: 200px;
+}
+
+
+
+
+
+
+
+
+/* SEARCH BUTTON SEARCH BUTTON SEARCH BUTTON  SEARCH BUTTON  SEARCH BUTTON  SEARCH BUTTON  SEARCH BUTTON */
+
+
+/* CSS for centering the search container */
+.search-container {
+  padding-top: 150px;
+  display: flex; /* Use flexbox to center horizontally and vertically */
+  align-items: center; /* Vertically center items */
+  justify-content: center; /* Horizontally center items */
+  margin-top: 70px; /* Adjust the margin as needed */
+}
+
+/* Style for the search input */
+.search-input {
+  /* Add your input styles here */
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 700px; /* Adjust the width as needed */
+  height: 40px;
+}
+
+/* Style for the search button */
+.search-btn {
+  /* Add your button styles here */
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 10px; /* Add some spacing between input and button */
+  display: none;
+}
+
+/* Additional styles for the placeholder text (optional) */
+.search-input::placeholder {
+  color: #999;
+  font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Restaurant cards CSS Start*/
+
+
+/* Update the CSS to give all cards the same fixed height and width */
+.restaurant-list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  padding-top: 100px;
+  padding-bottom: 60px;
+
+}
+
+.card {
+  width: 290px; /* Set the fixed width for all cards */
+  height: 360px; /* Set the fixed height for all cards */
+  border-radius: 5px;
+  box-shadow: -1px 5px 10px 5px rgba(42, 42, 42, 0.2);
+  padding: 10px;
+  margin: 20px;
+  cursor: pointer;
+  margin-bottom: 70px;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card > img {
+  width: 100%;
+  height: 70%;
+  object-fit: cover;
+}
+a{
+  text-decoration: none;
+}
+
+.card h3 {
+  /* font-family: 'Bitter', serif; */
+  margin-block-end: 0px;
+  font-weight: 500;
+  text-align: left;
+  font-size: 1.7rem;
+  margin: 0.8rem 0px 0.6rem;
+  width: 72%;
+  max-width: 80%;
+  color: rgb(28, 28, 28);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.card > h5 {
+  /* font-weight: lighter; */
+  font-size: inherit;
+  line-height: 1.5;
+  margin: 0px;
+  text-align: left;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: rgb(105, 105, 105);
+  max-width: 56%;
+  padding: 0px 0px 0.4rem;
+}
+.name-rating-box{
+  display: flex;
+  
+}
+.name-rating{
+ 
+  margin-left:50px;
+  margin-top: 20px;
+  padding-top: 6px;
+  height:25px;
+  width: 45px;
+  align-items: center;
+  text-align: center;
+  border-radius: 5px;
+  background-color: black;  
+
+}
+
+
+
+.card > span {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 8px;
+  text-align: center;
+}
+
+.card > span > h4 {
+  font-weight: bolder;
+  font-size: 1px;
+  padding: 0 2px 0;
+  margin-top: 10px;
+}
+
+.card > span > h4:first-child {
+  display: flex;
+  align-items: center;
+
+  border-radius: 5px;
+  color: white;
+  padding: 5px;
+  margin-top: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+/* contact page   contact page  contact page  contact page  contact page  contact page  contact page  contact page  contact page */
+
+/* CSS for the contact page container */
+/* CSS for the contact page container */
+.contact-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* 100% viewport height for vertical centering */
+  padding: 20px;
+
+}
+
+
+/* CSS for the right side (form) */
+.contact-right {
+  padding: 20px;
+  background-color: #f8f8f8;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  height: auto;
+  max-width: 400px; /* Adjust the maximum width as needed */
+  width: 100%; /* Ensure the form takes up the available space */
+  text-align: center; /* Center the form content horizontally */
+
+
+}
+
+.contact-left{
+  padding-right: 200px;
+}
+
+.contact-right h1 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.contact-right form {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center form elements horizontally */
+}
+
+/* Rest of the CSS remains the same */
+
+.contact-right h1 {
+  font-size: 26px;
+  margin-bottom: 20px;
+}
+
+.contact-right form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-right input,
+.contact-right textarea {
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.contact-right button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.contact-right button:hover {
+  background-color: #0056b3;
+}
+
+/* Styles for the success message (displayed when the form is submitted) */
+.contact-right span {
+  color: #28a745;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*  ABOUT PAGE  ABOUT PAGE   ABOUT PAGE   ABOUT PAGE   ABOUT PAGE   ABOUT PAGE   ABOUT PAGE   ABOUT PAGE   ABOUT PAGE   ABOUT PAGE   ABOUT PAGE   ABOUT PAGE   ABOUT PAGE  */
+
+
+
+/* Styling for the outer container of the About component */
+
+
+
+.about-container {
+  height: auto !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  position: relative;
+  padding-top: 600px;
+  padding-left: 190px;
+ top: 0%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+ gap: 50px;
+
+}
+.profile-user-img{
+  height: 150px;
+  border-radius: 50%;
+}
+/* Styling for the left side of the About component */
+.about-left {
+  /* flex: 1; */
+  padding: 20px;
+}
+
+/* Styling for the main heading */
+.about-left h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+/* Styling for the subheading */
+.about-left h4 {
+  font-size: 18px;
+  color: #555;
+}
+
+/* Styling for the "Fire" span within the subheading */
+.about-left h4 span {
+
+  color: #FFC300; /* You can use the color of your choice */
+  font-size: 20x;
+}
+
+/* Styling for the right side of the About component */
+.about-right {
+  flex: 1;
+  padding: 20px;
+}
+
+/* Styling for the food image */
+.about-right img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Styling for the profile button container */
+.about-profile-container {
+  /* text-align: center; */
+  /* margin-bottom: 20px; */
+  margin-top: 100px;
+  position: absolute;
+  top: 72%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+
+/* Styling for the profile button */
+.about-profile-button1 {
+  background-color: #ff5722; /* You can use the color of your choice */
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+ 
+ margin-top: 0px;
+  
+}
+
+.about-profile-button2 {
+  background-color: #ff5722; /* You can use the color of your choice */
+  color: #fff;
+  padding: 10px 20px;
+  margin-left: 100px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+ 
+ margin-top: 250px;
+  
+}
+
+/* Styling for the profile button on hover */
+.about-profile-button:hover {
+  background-color: #e5490d; /* Change the color on hover */
+}
+
+/* Styling for the Link components */
+a {
+  text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* shimmer   shimmer    shimmer    shimmer    shimmer    shimmer    shimmer    shimmer    shimmer    shimmer    shimmer    shimmer     */
+
+
+
+
+/* Styling for the shimmer-container */
+.shimmer-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding-top: 100px;
+
+}
+
+/* Styling for the card-shimmer */
+.card-shimmer {
+  width: 290px; /* Set the fixed width for all cards */
+  height: 360px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+  animation: shimmer 1s infinite;
+}
+
+/* Styling for the shimmer-card */
+.shimmer-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 20px;
+  
+}
+
+/* Styling for the shimmer-img */
+.shimmer-img {
+  width: 300px;
+  height: 300px;
+  /* object-fit: cover; */
+ border-radius:18px;
+ 
+  background-color: #e0e0e0;
+}
+
+/* Styling for the shimmer-title */
+.shimmer-title {
+  width: 80%;
+  height: 20px;
+  background-color: #e0e0e0;
+}
+
+/* Styling for the shimmer-tags */
+.shimmer-tags {
+  width: 60%;
+  height: 15px;
+  background-color: #e0e0e0;
+}
+
+/* Styling for the shimmer-details */
+.shimmer-details {
+  width: 90%;
+  height: 15px;
+  background-color: #e0e0e0;
+}
+
+/* Animation for shimmer effect */
+@keyframes shimmer {
+  0% {
+    background-position: -500px 0;
+  }
+  100% {
+    background-position: 500px 0;
+  }
+}
+
+/* Styling for the restaurant-summary */
+.restaurant-summary {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+  animation: shimmer 1s infinite;
+}
+
+.ps {
+  padding-top: 200px;
+}
+
+/* Styling for the restaurant-summary-details */
+.restaurant-summary-details {
+  flex: 1;
+}
+
+/* Styling for the shimmer-w40 */
+.shimmer-w40 {
+  width: 40%;
+  height: 20px;
+  background-color: #e0e0e0;
+}
+
+/* Styling for the shimmer-w20 */
+.shimmer-w20 {
+  width: 20%;
+  height: 15px;
+  background-color: #e0e0e0;
+}
+
+/* Styling for the restaurant-menu-content */
+.restaurant-menu-content {
+  margin-top: 20px;
+}
+
+/* Styling for the menu-title-wrap */
+.menu-title-wrap {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+/* Styling for the shimmer-menu-card */
+.shimmer-menu-card {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+  animation: shimmer 1s infinite;
+}
+
+/* Styling for the shimmer-item-details */
+.shimmer-item-details {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Styling for the shimmer-img-wrapper */
+.shimmer-img-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+/* Styling for the shimmer-btn */
+.shimmer-btn {
+  width: 60px;
+  height: 20px;
+  background-color: #e0e0e0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* html Heading line   html Heading line   html Heading line   html Heading line   html Heading line    */
+
+
+.funny{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50px,-50%);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Footer    Footer    Footer    Footer    Footer    Footer    Footer    Footer    Footer    Footer    Footer    Footer    Footer    */
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Add this CSS to your stylesheet */
+/* Add this CSS to your stylesheet */
+.footer {
+
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  font-size: 15px;
+  min-height: 0px; /* Use min-height instead of height */
+  background-color: #FFC300; /* You can set your desired background color */
+  color: rgb(19, 19, 19); /* You can set your desired text color */
+  padding: 10px 0; /* Adjust padding as needed */
+  text-align: center;
+}
+
+
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.footer-logo h3 {
+  margin: 0;
+  font-size: 1.5rem;
+
+}
+
+.footer-logo span {
+  color: red;
+}
+
+.footer-text  {
+  margin: 0;
+  font-size: 1.rem;
+}
+
+.footer-logo h3  span {
+  animation: beat 1s infinite alternate;
+}
+
+@keyframes beat {
+  to {
+    transform: scale(1.2);
+  }
+}
+
+
+.content-container12 {
+  display: flex;
+  height: 135px;
+  align-items: center; /* Vertically center content */
+  background-color:  #F0F0F5;
+}
+
+.image-container12 {
+  display: flex;
+  flex-direction: row; /* Stack images vertically */
+  align-items: flex-end; /* Align images to the right */
+  margin-left: auto; /* Push images to the right */
+  gap: 50px; /* Add some space between the images */
+  margin-right: 50px;
+}
+
+.appstore-img,
+.playstore-img {
+  max-width: 250px; /* Adjust the image width as needed */
+  height: auto; /* Maintain aspect ratio */
+}
+
+/* Additional styling for the text if needed */
+h1 {
+  margin-right: 20px; /* Add some spacing between text and images */
+  margin-left: 55px;
+  color: #3D4047;
+}
+
+
+/* Content3.css */
+
+
+/* Container style */
+.content-container {
+padding-top: 60px;
+  display: flex;
+  justify-content: space-evenly;
+
+  gap: 20px;
+  background-color: black;
+  color: #fff;
+  padding-right:90px ;
+  padding-left: 90px;
+  height: 400px;
+}
+
+/* Column style */
+.column {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  color: white;
+}
+
+/* Link styles (optional) */
+.column Link {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+/* Heading styles (optional) */
+h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+h5 {
+  font-size: 16px;
+  margin-bottom: 5px;
+  color: #666;
+}
+
+
+
+
+/* content 4    content 4    content 4    content 4    content 4    content 4     */
+.copy-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #000000; /* Add your desired background color */
+  padding: 10px; /* Add padding as needed */
+  margin-top: 2px;
+  
+}
+
+.left {
+  flex: 1;
+}
+
+.right {
+  display: flex;
+  gap: 10px; /* Adjust the gap between social icons */
+}
+
+/* Style for the copyright text */
+.copyright-txt {
+  font-size: 24px; /* Adjust the font size */
+  font-weight: bold; /* Adjust font weight if needed */
+  color: white; /* Adjust text color */
+}
+
+/* Style for the social icons */
+.social-icons {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  gap: 30px;
+  margin-right: 70px;
+  color: white;
+}
+
+/* Style for individual social icon links */
+.social-icons a {
+  text-decoration: none;
+  color: #333; /* Adjust icon color */
+}
+
+/* Style for the icon size */
+.social-icons svg {
+  height: 50px; /* Set the height of icons to 50px */
+}
+
+/* Add your styles for .copyright-txt and .social-icons here */
+
+
+
+
+
+
+
+/* instamart    instamart    instamart    instamart    instamart    instamart    instamart    instamart    instamart    */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* CSS for InstaMart component */
+.main-insta {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f3f3f3; /* Update with your desired background color */
+}
+
+.insta-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.logo {
+  max-width: 180%;
+  height: auto;
+  margin-bottom: 10px; /* Adjust as needed to control spacing between logo and text */
+}
+
+.text {
+  font-size: 30px; /* Adjust font size as needed */
+  color: #333; /* Update with your desired text color */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 120px;
+}
+
+
+
+
+
+
+
+
+
+/*    login form      login form       login form       login form       login form       login form       login form      */
+
+/* CSS for Login Component */
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f3f3f3;
+}
+
+.login-form {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 300px;
+ 
+}
+
+form {
+  text-align: center;
+  margin-right: 20px;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.error-message {
+  color: red;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.login-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #FFC300;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.login-button:hover {
+  background-color: rgb(238, 198, 66);
+}
+
+.toggle-link {
+  font-size: 12px;
+  color: #555;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.recaptcha-text {
+  font-size: 12px;
+  color: #555;
+}
+
+
+
+
+
+.googlesignIn {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+  display: flex;
+  color: white;
+  background-color: #4285F4;
+  border-radius: 5px;
+ 
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  width: 260px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.googlesignIn:hover {
+  background-color: #357AE8;
+}
+
+.google-img-box {
+  height: 50px;
+  width: 50px; /* Keep it square */
+  border-radius: 50%;
+  overflow: hidden;
+  margin-right: 10px;
+  background: white;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+}
+
+.google-img {
+  height: 100%;
+  width: 100%; /* Make the image fill the square container */
+  object-fit: cover;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  outline: none;
+}
+
+button:hover {
+  text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+/* profile   profile   profile   profile   profile   profile   profile   profile   profile    */
+
+
+/* SocialProfileClass.css */
+
+/* Style the container for the social media icons and title */
+.profile-container {
+  text-align: center;
+  margin-bottom: 20px; /* Add margin to separate from social media icons */
+}
+
+/* Style the title */
+.profile-title {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+/* Style the container for social media icons */
+.social-media-container {
+  text-align: center;
+}
+
+/* Style the individual social media icons */
+.social-media-container a {
+  margin: 0 10px; /* Add some spacing between icons */
+  text-decoration: none; /* Remove underlines from links */
+  display: inline-block; /* Display icons in a row */
+  transition: transform 0.2s; /* Add a smooth hover effect */
+}
+
+.social-media-container a:hover {
+  transform: scale(1.1); /* Enlarge the icon on hover */
+}
+
+/* Style the images */
+.social-media-container img {
+  width: 30px; /* Adjust the width of the icons as needed */
+  height: 30px; /* Adjust the height of the icons as needed */
+}
+
+/* Customize styles for individual social media icons */
+/* For example, GitHub */
+.github img {
+  /* Add any specific styles for the GitHub icon here */
+}
+
+/* Similarly, style the other social media icons as needed */
+
+/* Add any additional styling you need */
+
+/* Add any other styling you need */
+
+
+
+
+
+
+/* SocialProfileClass   SocialProfileClass   SocialProfileClass   SocialProfileClass   */
+
+
+.social-media-container {
+
+  display: flex;
+  justify-content: space-between; /* To evenly distribute the logos */
+  align-items: center; /* To vertically center align the logos */
+}
+
+.social-media-container img {
+  width: 60px; /* Set the width to 60px */
+  height: auto; /* Maintain the aspect ratio */
+}
+
+
+/* EmptyCart    EmptyCart    EmptyCart    EmptyCart    EmptyCart    EmptyCart    EmptyCart    */
+
+
+
+
+
+/* CSS for EmptyCart component */
+.Empty-cart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh; /* Set height to 100% of the viewport height for centering */
+}
+
+.Empty-cart div {
+  text-align: center;
+}
+
+.Empty-cart img {
+  width: 500px; /* Adjust the width as needed */
+  height: auto; /* Maintain aspect ratio */
+  margin-bottom: 20px; /* Add some spacing below the image */
+}
+
+.Empty-cart h2 {
+  color: #0165B8;
+  font-size: 24px; /* Adjust the font size as needed */
+}
